@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilo.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <title>Samir Simon's Page 2</title>
+  </head>
+
+  <body>
+    <div class="father">
+
+      <!--HEADER-->
+      <div class="header">
+        <h1>Samir Simon's Page</h1>
+      </div>
+
+      <!--NAV-->
+      <div class="nav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Videojuegos que me
+              Gustan</a>
+            <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page"
+                    href="../index.html">Dark Souls</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"
+                    href="../pages/fallout.html">Fallout</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/mother.html">Mother</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"
+                    id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Hobies Aparte
+                  </a>
+                  <ul class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item active"
+                        href="../pages/cocina.html">Cocina</a></li>
+                    <li><a class="dropdown-item"
+                        href="../pages/musica.html">Musica</a></li>
+                    <li><a class="dropdown-item"
+                        href="../pages/mascotas.html">Mascotas</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--CONTENIDO1-->
+      <div class="cont1">
+        <div class="card bg-dark text-white">
+          <img src="../img/fallout.jpg" class="card-img" alt="VaultBoy">
+          <div class="card-img-overlay">
+            <h1 class="card-title">Fallout</h1>
+            <p class="card-text">Fallout es una serie de videojuegos de rol.</p>
+            <p class="card-text">Publicados desde 1997</p>
+          </div>
+        </div>
+
+        <div class="card text-dark bg-warning mb-3"
+          style="max-width: fit-content">
+          <div class="card-header">Videojuegos</div>
+          <div class="card-body">
+            <h5 class="card-title">Nombres y Año de Salida</h5>
+            <p class="card-text">Fallout (1997),
+              Fallout 2 (1998),
+              Fallout Tactics: Brotherhood of Steel (2003),
+              Fallout: Brotherhood of Steel (2004),
+              Fallout 3 (2008),
+              Fallout: New Vegas (2010),
+              Fallout Shelter (2014),
+              Fallout 4 (2015),
+              Fallout 76 (2018)</p>
+          </div>
+        </div>
+      </div>
+
+      <!--CONTENIDO2-->
+      <div class="cont2">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/fallout0.jpg" class="d-block w-100"
+                alt="Fallout">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/fallout1.jpg" class="d-block w-100"
+                alt="Fallout2">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/fallout2.jpg" class="d-block w-100"
+                alt="Fallout3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!--CONTENIDO3-->
+      <div class="cont3">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body bg-dark text-white">
+            <h5 class="card-title">Lore Fallout 1</h5>
+            <p class="card-text">La serie se ambienta en unos Estados Unidos
+              alternativos en un universo que diverge del nuestro después de
+              1945, al terminar la Segunda Guerra Mundial. En esta "edad de oro"
+              alternativa con tintes atompunk, los tubos de vacío y la física
+              atómica sirven como piedra angular del progreso científico,
+              mientras que los transistores no son tan científicamente
+              importantes en este mundo.</p>
+            <a class="btn btn-warning" data-bs-toggle="offcanvas"
+              href="#offcanvas" role="button"
+              aria-controls="offcanvas">Música?</a>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1"
+          id="offcanvas" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Maybe - Ink
+              Spots</h5>
+            <button type="button" class="btn-close text-reset"
+              data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <audio controls>
+              <source src="../music/Maybe - The Ink Spots.mp3" type="audio/mp3">
+            </audio>
+            <pre>
+Maybe
+          
+You'll think of me, when you are all alone
+Maybe, the one who is waiting for you
+Will prove untrue
+Then what will you do?
+hook
+Maybe, you'll sit and sigh
+Wishing that I were near
+Then, maybe you'll ask me to come back again
+And maybe
+I'll say, "maybe"
+
+Maybe
+You'll think of me, when you are all alone
+Maybe, the one who is waiting for you
+Will prove untrue
+Then, what will I do?
+
+Maybe, you'll sit and sigh
+Wishing that I were near
+Then, maybe you'll ask me to come back again
+And maybe
+I'll say, "maybe"
+</pre>
+
+          </div>
+        </div>
+      </div>
+      <!--FOOTER-->
+      <div class="foot">
+        <div class="btn-group bg-dark" role="group"
+          aria-label="Basic outlined example">
+          <button type="button" class="btn btn-outline-light"><-Boton</button>
+          <button type="button" class="btn btn-outline-light">Medio</button>
+          <button type="button" class="btn btn-outline-light">Boton-></button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

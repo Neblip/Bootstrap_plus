@@ -1,0 +1,62 @@
+.father {
+    padding: 25px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas: "header header header"
+        "nav nav nav"
+        "cont1 cont2 cont3"
+        "foot foot foot";
+}
+
+h1 {
+    color: aliceblue;
+
+}
+
+.father .header {
+    grid-area: header;
+}
+
+.father .nav {
+    grid-area: nav;
+}
+
+.father .cont1 {
+    grid-area: cont1;
+}
+
+.father .cont2 {
+    grid-area: cont2;
+    background-color: black;
+}
+
+.father .cont3 {
+    grid-area: cont3;
+}
+
+.father .foot {
+    grid-area: foot;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .father {
+        padding: 25px;
+        background-color: black;
+        justify-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 3fr;
+        grid-template-areas: "header"
+            "nav"
+            "cont1"
+            "cont2"
+            "cont3"
+            "foot";
+    }
+}
